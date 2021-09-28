@@ -87,10 +87,12 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color:rgb(144, 193, 216);
 }
 .card-title{
   text-align:center;
+  text-decoration: underline rgb(144, 193, 216) 3px;
+  
 }
 .card {
   margin: 30px;

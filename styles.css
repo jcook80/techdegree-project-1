@@ -125,6 +125,13 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+.logo{margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit:cover;
+  border: 3px solid rgb(144, 193, 216);
+  transition: all .5s;}
 .align-left {
   float: left;
   width:50%;
@@ -167,9 +174,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }

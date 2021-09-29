@@ -75,7 +75,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -114,6 +114,7 @@ ul.skills {
 }
 
 .skills li {
+  
   border-radius: 6px;
   display:inline-block;
   background: #ff9904;
@@ -121,17 +122,12 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
-
+.skills li:hover {
+  transform: scale(2.0) rotate(10deg);
+}
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-.logo{margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit:cover;
-  border: 3px solid rgb(144, 193, 216);
-  transition: all .5s;}
 .align-left {
   float: left;
   width:50%;
@@ -174,6 +170,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 
 a.linkedin {
   background-image: url(images/linkedin.svg);
